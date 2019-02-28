@@ -53,4 +53,13 @@ public class TestAnalytics {
 
         assertArrayEquals(expected,result,"Should return [ala mia]");
     }
+
+    @Test
+    public void testPrimeraMasLarga() {
+        String text = "cosa mia casa";
+        String[] expected = {"cosa"};
+        String[] result = Analytics.primeraMasLarga(text);
+
+        assertArrayEquals(expected,result,"Should return [cosa]");
+    }
 }

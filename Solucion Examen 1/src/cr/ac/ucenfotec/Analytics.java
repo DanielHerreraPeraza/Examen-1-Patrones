@@ -62,4 +62,19 @@ public class Analytics {
 
         return result;
     }
+
+    public static String[] primeraMasLarga(String text) {
+        String palabras[] = text.split(" ");
+        int mayor = 0;
+        String[] result = new String[1];
+
+        for (String palabra : palabras) {
+            if(palabra.length() > mayor){
+                mayor = palabra.length();
+                result[0] = palabra;
+            }
+        }
+
+        return result;
+    }
 }
