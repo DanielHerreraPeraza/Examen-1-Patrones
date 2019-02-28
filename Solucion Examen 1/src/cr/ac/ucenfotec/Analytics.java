@@ -1,7 +1,6 @@
 package cr.ac.ucenfotec;
 
 import java.util.Arrays;
-import java.util.List;
 
 public class Analytics {
     public static String[] masLarga(String text){
@@ -58,6 +57,8 @@ public class Analytics {
                 result[pos++] = palabras[i];
             }
         }
+
+        Arrays.sort(result);
 
         return result;
     }

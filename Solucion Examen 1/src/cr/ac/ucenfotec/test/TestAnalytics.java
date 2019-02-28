@@ -27,7 +27,7 @@ public class TestAnalytics {
         String text2 = "casa mia cosa ala";
 
         String[] expected1 = {"casa"};
-        String[] expected2 = {"mia","ala"};
+        String[] expected2 = {"ala","mia"};
 
         String[] result1 = Analytics.masCorta(text1);
         String[] result2 = Analytics.masCorta(text2);
@@ -43,5 +43,14 @@ public class TestAnalytics {
         String[] result = Analytics.masLarga(text);
 
         assertArrayEquals(expected,result,"Should return [casa cosa]");
+    }
+
+    @Test
+    public void testMasCortaOrdenado(){
+        String text = "casa mia cosa ala";
+        String[] expected = {"ala","mia"};
+        String[] result = Analytics.masCorta(text);
+
+        assertArrayEquals(expected,result,"Should return [ala mia]");
     }
 }
