@@ -35,4 +35,13 @@ public class TestAnalytics {
         assertArrayEquals(expected1,result1,"Should return [casa]");
         assertArrayEquals(expected2,result2,"Should return [mia ala]");
     }
+
+    @Test
+    public void testMasLargaOrdenado() {
+        String text = "cosa casa mia";
+        String[] expected = {"casa","cosa"};
+        String[] result = Analytics.masLarga(text);
+
+        assertArrayEquals(expected,result,"Should return [casa cosa]");
+    }
 }

@@ -52,12 +52,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="522" />
+          <entry key="java" value="850" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="522" />
+          <entry key="JAVA" value="850" />
         </counts>
       </usages-collector>
     </session>
@@ -67,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/test/TestAnalytics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+            <state relative-caret-position="680">
+              <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,9 +79,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/Analytics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="51" column="47" lean-forward="true" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
+            <state relative-caret-position="238">
+              <caret line="59" column="28" lean-forward="true" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="method#masLarga#0;class#Analytics#0" />
               </folding>
             </state>
@@ -106,8 +107,8 @@
         <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/cr/ac/ucenfotec/test/TestMasLarga.java" />
         <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/cr/ac/ucenfotec/test/TestAnalytics.java" />
         <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/Main.java" />
-        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/Analytics.java" />
         <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/test/TestAnalytics.java" />
+        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/Analytics.java" />
       </list>
     </option>
   </component>
@@ -168,7 +169,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551317748432" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551318481297" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -271,14 +272,11 @@
       <option name="presentableId" value="Default" />
       <updated>1551315288784</updated>
       <workItem from="1551315292249" duration="1559000" />
-      <workItem from="1551317050930" duration="656000" />
+      <workItem from="1551317050930" duration="1320000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestAnalytics_testMasLarga - 2019.02.27 at 19h 08m 19s.xml">
-      <configuration name="TestAnalytics.testMasLarga" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestAnalytics_testMasLarga - 2019.02.27 at 19h 08m 28s.xml">
       <configuration name="TestAnalytics.testMasLarga" configurationId="JUnit" />
     </history-entry>
@@ -300,9 +298,18 @@
     <history-entry file="TestAnalytics_testMasCorta - 2019.02.27 at 19h 31m 17s.xml">
       <configuration name="TestAnalytics.testMasCorta" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestAnalytics - 2019.02.27 at 19h 35m 09s.xml">
+      <configuration name="TestAnalytics" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAnalytics - 2019.02.27 at 19h 35m 50s.xml">
+      <configuration name="TestAnalytics" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAnalytics - 2019.02.27 at 19h 42m 09s.xml">
+      <configuration name="TestAnalytics" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2215000" />
+    <option name="totallyTimeSpent" value="2879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -354,9 +361,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/Analytics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="51" column="47" lean-forward="true" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
+        <state relative-caret-position="238">
+          <caret line="59" column="28" lean-forward="true" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#masLarga#0;class#Analytics#0" />
           </folding>
         </state>
@@ -364,8 +372,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/test/TestAnalytics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        <state relative-caret-position="680">
+          <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
